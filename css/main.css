@@ -1,0 +1,245 @@
+header {
+    color: white;
+}
+
+header a {
+    color: black;
+    font-family: nobel, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header a:hover {
+    color: grey;
+}
+
+header img:hover {
+    opacity: 0.5;
+    transition-duration: 0.4s;
+}
+
+.spacing {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 250px;
+}
+.dropbtn {
+  color: black;
+  font-size: 1rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: grey;
+}
+.search {
+    left: -7rem
+}
+h1 {
+    font-family: rockwell, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.right-align {
+    text-align: right;
+    padding-left: 3rem
+}
+
+.logo {
+    padding: 0rem 2rem;
+    width: 45rem;
+}
+.long-live-rock {
+    background-image: url("../img/background-texture-dark.3f8df79.png")
+}
+
+.inductees {
+    background-image: url("../img/background-texture-grey.b2f1292.png");
+    padding: 4rem;
+}
+
+section a img {
+    width: 11rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.events {
+   background-image: url("../img/background-texture-light.4d9402d.png");
+    padding: 4rem;
+}
+
+.left-align {
+    text-align: left;
+    padding-right: 3rem;
+}
+    
+.museum {
+    background-image: url("../img/background-texture-dark.3f8df79.png");
+    padding: 4rem;
+    color: white;
+}
+
+.border {
+    background-image: url("../img/background-texture-dark.3f8df79.png");
+}
+
+.shop {
+    background-image: url("../img/background-texture-grey.b2f1292.png");
+    padding: 4rem;
+    padding-top: 3rem;
+}
+
+button:hover {
+    opacity: 0.5
+}
+
+.button-1 {
+    background-image: url("../img/red-background-1.jpg");
+    font-family: nobel, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 12px;
+    border-radius: 1rem;
+    margin: .5rem;
+    transition-duration: 0.2s;
+}
+
+.button-2 {
+    background-image: url("../img/red-background-2.jpg");
+    font-family: nobel, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 12px;
+    border-radius: 1rem;
+    margin: .5rem;
+    transition-duration: 0.2s;
+}
+.button-1 a {
+    color: white
+}
+.button-2 a {
+    color: white
+}
+
+footer {
+    background-image: url("../img/background-texture-light.4d9402d.png");
+    padding: 4rem;
+}
+
+footer p {
+    float: right;
+    text-align: right;
+    display: inline-block;
+    font-size: 1rem
+}
+
+footer div {
+    display: inline-block;
+}
+
+ul {
+    color: black;
+    font-family: nobel, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+}
+li {
+    font-size: 12px;
+    list-style: none;
+    line-height: 3;
+    transition-duration: 0.2s;
+}
+
+li:hover {
+    opacity: 0.5;
+}
+
+footer img {
+    max-width: 40%;
+    width: 250px;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+.align {
+    vertical-align: top;
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+.align a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+footer img:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:40em) {
+    .spacing {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    h1 {
+        font-size: 3rem
+    }
+    .right-align {
+        text-align: left;
+        padding-left: 0rem;
+    }
+    header a {
+        text-align: center;
+    }
+    section a img {
+        padding-right: 1rem;
+        padding-left: 0rem;
+    }
+    footer p {
+        font-size: 14px
+    }
+}
