@@ -173,7 +173,11 @@ footer p {
     display: inline-block;
     font-size: 1rem
 }
-
+section p {
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 footer div {
     display: inline-block;
 }
@@ -218,6 +222,9 @@ footer img {
 
 footer img:hover {
     opacity: 0.5;
+}
+.logolist {
+    margin: 
 }
 
 @media screen and (max-width:40em) {
